@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import generateId from '../../Utilities/generateID';
-import expirationTime from '../../Utilities/expirationtime';
+import generateId from '../../Utilities/generateID.js';
+import expirationTime from '../../Utilities/expirationtime.js';
 
 function Dashboard() {
     const [thoughts, setThoughts] = useState([{
-        id: generateId(),
+        id: generateId,
         text: 'Add your thoughts!',
-        expires: expirationTime(),
+        expires: expirationTime,
         }
     ]);
 

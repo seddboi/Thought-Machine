@@ -1,8 +1,9 @@
 const nextId = 0;
 
-export function generateId() {
+export default function generateId() {
     const result = nextId;
     nextId += 1;
 
     return result;
 };
+
