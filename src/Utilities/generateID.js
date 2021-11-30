@@ -1,4 +1,4 @@
-const nextId = 0;
+var nextId = 0;
 
 export default function generateId() {
     const result = nextId;

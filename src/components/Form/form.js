@@ -4,7 +4,7 @@ import expirationTime from '../../Utilities/expirationtime.js';
 
 import './form.css';
 
-export default function Form(props) {
+function Form(props) {
     const [text, setText] = useState('');
 
     //this function is called everytime the text value in the entry box is changed... adjusts state value of text
@@ -17,9 +17,9 @@ export default function Form(props) {
 
         //sets object for new thought and fills in new message; new generated ID and new time 15 seconds ahead of current time
         const thought = {
-            id: generateId(),
+            id: generateId,
             text: text,
-            expiresAt: expirationTime(),
+            expiresAt: expirationTime,
         };
         
         // checks if text has any text within it, then submits the new 'thought' to props.addThought
@@ -37,3 +37,5 @@ export default function Form(props) {
         </form>
     );
 };
+
+export default Form;
