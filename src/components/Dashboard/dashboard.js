@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
-import generateId from '../../Utilities/generateID.js';
-import expirationTime from '../../Utilities/expirationtime.js';
-import Form from '../Form/form.js';
-import Thought from '../Thought/thought.js';
+import {generateId} from '../../Utilities/generateId.js';
+import {expirationTime} from '../../Utilities/expirationTime.js';
+import {Form} from '../Form/Form.js';
+import {Thought} from '../Thought/Thought.js';
 
-function Dashboard() {
+export function Dashboard() {
     const [thoughts, setThoughts] = useState([{
-        id: generateId,
+        id: generateId(),
         text: 'Add your thoughts!',
-        expires: expirationTime,
+        expires: expirationTime(),
         }
     ]);
 
@@ -40,5 +40,3 @@ function Dashboard() {
         </div>
     )
 };
-
-export default Dashboard;

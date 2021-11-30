@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import generateId from '../../Utilities/generateID.js';
-import expirationTime from '../../Utilities/expirationtime.js';
+import {generateId} from '../../Utilities/generateId.js';
+import {expirationTime} from '../../Utilities/expirationTime.js';
 
-import './form.css';
+import './Form.css';
 
-function Form(props) {
+export function Form(props) {
     const [text, setText] = useState('');
 
     //this function is called everytime the text value in the entry box is changed... adjusts state value of text
@@ -37,5 +37,3 @@ function Form(props) {
         </form>
     );
 };
-
-export default Form;
