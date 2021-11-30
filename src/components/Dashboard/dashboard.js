@@ -4,14 +4,14 @@ import expirationTime from '../../Utilities/expirationtime.js';
 
 function Dashboard() {
     const [thoughts, setThoughts] = useState([{
-        id: generateId,
+        id: generateId(),
         text: 'Add your thoughts!',
-        expires: expirationTime,
+        expires: expirationTime(),
         }
     ]);
 
     const addThought = (thought) => {
-        setThoughts((thoughts) => [thought, ...thoughts]);
+        setThoughts((prev) => [thought, ...prev]);
     };
 
     return (
