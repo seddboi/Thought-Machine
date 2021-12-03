@@ -38,7 +38,7 @@ export function Dashboard() {
         <div>
             <h1>Thought Machine</h1>
             <h3>Welcome! This is an open space for any of your thoughts.</h3>
-            <h2>Thanks for visiting!</h2>
+            <h3>Thanks for visiting!</h3>
             <Form addThought={addThought} />
             <ul className='thoughts'>
                 {thoughts.map( thought => 
