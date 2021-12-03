@@ -20,7 +20,7 @@ export function Dashboard() {
         expiresAt: expirationTime(), 
         }
     ]);
-    console.log(thoughts);
+
     //adds new thought object to array lists out all collective thoughts in thoughts array
     const addThought = (thought) => {
         setThoughts((prev) => [thought, ...prev]);
@@ -33,7 +33,7 @@ export function Dashboard() {
             return prev.filter((thought) => thought.id !== thoughtID)
         });
     };
-    // console.log(thoughts.map((thought) => thought.id));
+
     return (
         <div>
             <h1>Thought Machine</h1>
