@@ -17,9 +17,9 @@ export function Form(props) {
 
         //sets object for new thought and fills in new message; new generated ID and new time 15 seconds ahead of current time
         const thought = {
-            id: generateId,
+            id: generateId(),
             text: text,
-            expiresAt: expirationTime,
+            expiresAt: expirationTime(),
         };
         
         // checks if text has any text within it, then submits the new 'thought' to props.addThought
