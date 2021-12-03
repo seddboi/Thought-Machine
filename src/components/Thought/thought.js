@@ -2,10 +2,9 @@ import React, {useEffect} from 'react';
 
 export function Thought(props) {
     const {thought, removeThought} = props;
-    console.log(thought);
 
     useEffect(() => {
-        const timeRemaining = thought.expirationTime - Date.now();
+        const timeRemaining = thought.expiresAt - Date.now();
         
         const timeout = setTimeout(() => {
             removeThought(thought.id)

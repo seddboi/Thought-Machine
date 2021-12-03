@@ -12,15 +12,15 @@ export function Dashboard() {
         {
         id: generateId(),
         text: "Add your thoughts, don't be shy!",
-        expires: expirationTime(),
+        expiresAt: expirationTime(),
         }, 
         {
         id: generateId(),
         text: 'They disappear after 15 seconds!',
-        expires: expirationTime(), 
+        expiresAt: expirationTime(), 
         }
     ]);
-
+    console.log(thoughts);
     //adds new thought object to array lists out all collective thoughts in thoughts array
     const addThought = (thought) => {
         setThoughts((prev) => [thought, ...prev]);
