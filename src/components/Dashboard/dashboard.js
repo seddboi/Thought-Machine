@@ -4,6 +4,8 @@ import {expirationTime} from '../../Utilities/expirationTime.js';
 import {Form} from '../Form/Form.js';
 import {Thought} from '../Thought/Thought.js';
 
+import './Dashboard.css'
+
 export function Dashboard() {
     // Sets up sample message when site first loads up; eventually disappears after 15s
     // generateId adheres an id number starting at 0, to each thought to easily identify each thought
@@ -11,7 +13,7 @@ export function Dashboard() {
     const [thoughts, setThoughts] = useState([
         {
         id: generateId(),
-        text: "Add your thoughts, don't be shy!",
+        text: "Don't be shy!",
         expiresAt: expirationTime(),
         }, 
         {
@@ -36,9 +38,9 @@ export function Dashboard() {
 
     return (
         <div>
-            <h1>Thought Machine</h1>
-            <h3>Welcome! This is an open space for any of your thoughts.</h3>
-            <h3>Thanks for visiting!</h3>
+            <h1 className='main-title'>Thought Machine</h1>
+            <h3 className='second-title'>This is an open space for any of your thoughts.</h3>
+            <h3 className='second-title'>Thanks for visiting!</h3>
             <Form addThought={addThought} />
             <ul className='thoughts'>
                 {thoughts.map( thought => 

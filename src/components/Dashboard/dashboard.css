@@ -1,5 +1,10 @@
-.thoughts {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.main-title {
+    color: var(--lightgrass) !important;
+    font-size: 60px;
+    text-shadow: 0 1px var(--darkestgrass), 0 2px var(--darkestgrass), 0 3px var(--darkestgrass), 0 4px var(--darkestgrass), 0 5px var(--darkestgrass), 0 6px var(--darkestgrass), 0 7px var(--darkestgrass), 0 8px var(--darkestgrass);
+}
+
+.second-title {
+    color: var(--darkestgrass) !important;
+    font-size: 25px;
 }
