@@ -32,8 +32,8 @@ export function Form(props) {
 
     return (
         <form onSubmit={handleSubmit} className='Form'>
-            <input value={text} onChange={handleTextChange} type='text' placeholder="Go ahead ... there's no CIA agents here :)" />
-            <input type='submit' value='add' />
+            <input className='form-text' value={text} onChange={handleTextChange} type='text' placeholder="Add your thoughts here!" />
+            <input className='form-button' type='submit' value='Add' />
         </form>
     );
 };

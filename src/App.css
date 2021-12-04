@@ -1,3 +1,11 @@
+:root {
+  --lightgrass: #E5EFCE ;
+  --hover: #DAF1A8;
+  --grass: #97CC24;
+  --darkgrass: #74A30F;
+  --darkestgrass: #507601;
+}
+
 .App {
   text-align: center;
 }
