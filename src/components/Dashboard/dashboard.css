@@ -8,3 +8,24 @@
     color: var(--darkestgrass) !important;
     font-size: 25px;
 }
+
+.thoughts {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.credits {
+    color: white;
+    background-color: var(--darkestgrass);
+    padding: 5px;
+    font-size: 2.5vw;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0 auto;
+}

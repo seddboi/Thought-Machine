@@ -1,3 +1,42 @@
 .Thought {
-    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    color: var(--darkestgrass);
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 17px;
+    flex-grow: 7;
+    background-color: white;
+    box-shadow: 0 8px var(--darkestgrass);
+    border: 2px solid var(--darkestgrass);
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.remove-button {
+    color: var(--darkestgrass);
+    font-size: 17px;
+    font-weight: bold;
+    background-color: var(--lightgrass);
+    border: 2px solid var(--darkestgrass);
+    border-radius: 6px;
+    width: 80px;
+    box-shadow: 0 8px var(--darkestgrass); 
+}
+
+.remove-button:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
+.remove-button:active {
+    box-shadow: 0 3px #555;
+    transform: translatey(5px);
 }

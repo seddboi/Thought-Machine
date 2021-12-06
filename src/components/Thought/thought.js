@@ -1,5 +1,8 @@
 import React, {useEffect} from 'react';
 
+import './Thought.css';
+import 'animate.css';
+
 export function Thought(props) {
     // variables that takes in props that were entered by the user, on the dashboard
     const {thought, removeThought} = props;
@@ -9,9 +12,11 @@ export function Thought(props) {
         // once they are equal(the subtraction is equal to zero), the timout triggers
         const timeRemaining = thought.expiresAt - Date.now();
         
-        // tomeout function that deletes message after time remaining "runs out"
+        // timeout function that deletes message after time remaining "runs out"
         const timeout = setTimeout(() => {
-            removeThought(thought.id)
+            removeThought(thought.id);
+            // document.getElementById('Thought').classList.remove('animate__fadeIn');
+            // document.getElementById('Thought').classList.add('animate__fadeOut');
         }, timeRemaining);
 
         // cleanup function to clear out time
@@ -26,9 +31,9 @@ export function Thought(props) {
     };
 
     return (
-        <li className='Thought'>
+        <li id='Thought' className='Thought animate__animated animate__fadeIn'>
+            <h4 className='text' >{thought.text}</h4>
             <button className='remove-button' onClick={handleRemoveClick}>&times;</button>
-            <p className='text' >{thought.text}</p>
         </li>
     )
 };

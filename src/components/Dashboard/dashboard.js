@@ -13,7 +13,7 @@ export function Dashboard() {
     const [thoughts, setThoughts] = useState([
         {
         id: generateId(),
-        text: "Don't be shy!",
+        text: "Don't worry...",
         expiresAt: expirationTime(),
         }, 
         {
@@ -45,9 +45,9 @@ export function Dashboard() {
             <ul className='thoughts'>
                 {thoughts.map( thought => 
                     (<Thought key={thought.id} thought={thought} removeThought={removeThought} />) 
-                    // thought.text
                 )}
             </ul>
+            <h4 className='credits'>created by gian z :)</h4>
         </div>
     )
 };

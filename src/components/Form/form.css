@@ -1,7 +1,10 @@
 .Form { 
     display: flex;
-    justify-content: center;
-    margin: 30px;
+    justify-content: center !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .form-text {
@@ -13,7 +16,7 @@
     box-shadow: 0 8px var(--darkestgrass);
     outline: none;
     color: var(--darkestgrass);
-    background-color: var(--lightgrass);
+    background-color: white;
 }
 
 .form-text,
