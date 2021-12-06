@@ -47,7 +47,7 @@ export function Dashboard() {
                     (<Thought key={thought.id} thought={thought} removeThought={removeThought} />) 
                 )}
             </ul>
-            <h4 className='credits'>created by gian z :)</h4>
+            <a href='https://github.com/seddboi'><h4 className='credits'>created by gian z :)</h4></a>
         </div>
     )
 };

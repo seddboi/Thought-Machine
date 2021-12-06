@@ -18,14 +18,28 @@
 }
 
 .credits {
-    color: white;
-    background-color: var(--darkestgrass);
+    color: var(--darkestgrass);
+    background-color: var(--lightgrass);
     padding: 5px;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     position: fixed;
     bottom: 0;
     right: 20px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
     margin: 0 auto;
+    background-color: var(--lightgrass);
+    border-left: 2px solid var(--darkestgrass);
+    border-right: 2px solid var(--darkestgrass);
+    border-top: 2px solid var(--darkestgrass);
+    box-shadow: 0 8px var(--darkestgrass); 
+}
+
+.credits:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
