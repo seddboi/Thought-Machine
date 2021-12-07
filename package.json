@@ -2,6 +2,9 @@
   "name": "sample",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.16.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
@@ -9,6 +12,7 @@
     "animate.css": "^4.1.1",
     "foundation-sites": "^6.7.4",
     "moment": "^2.29.1",
+    "node": "^17.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
