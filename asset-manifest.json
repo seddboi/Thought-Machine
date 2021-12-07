@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Thought-Machine/static/css/main.72a3820e.chunk.css",
+    "main.js": "/Thought-Machine/static/js/main.e4418241.chunk.js",
+    "main.js.map": "/Thought-Machine/static/js/main.e4418241.chunk.js.map",
+    "runtime-main.js": "/Thought-Machine/static/js/runtime-main.754531cc.js",
+    "runtime-main.js.map": "/Thought-Machine/static/js/runtime-main.754531cc.js.map",
+    "static/css/2.a1596f27.chunk.css": "/Thought-Machine/static/css/2.a1596f27.chunk.css",
+    "static/js/2.1fd2d85d.chunk.js": "/Thought-Machine/static/js/2.1fd2d85d.chunk.js",
+    "static/js/2.1fd2d85d.chunk.js.map": "/Thought-Machine/static/js/2.1fd2d85d.chunk.js.map",
+    "index.html": "/Thought-Machine/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/Thought-Machine/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.72a3820e.chunk.css.map": "/Thought-Machine/static/css/main.72a3820e.chunk.css.map",
+    "static/js/2.1fd2d85d.chunk.js.LICENSE.txt": "/Thought-Machine/static/js/2.1fd2d85d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.754531cc.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.1fd2d85d.chunk.js",
+    "static/css/main.72a3820e.chunk.css",
+    "static/js/main.e4418241.chunk.js"
+  ]
+}
