@@ -1,6 +1,6 @@
 # Thought Machine
 
-![](https://github.com/seddboi/Weather-Dashboard/blob/main/gif/Weather%20Dashboard.gif)
+![](https://github.com/seddboi/Thought-Machine/blob/main/src/gif/https___seddboi.github.io_Thought-Machine_.gif)
 
 # Introduction
 Welcome to Thought Machine!
@@ -20,7 +20,7 @@ The only simple step to this application is to load the site below.
 
 Enjoy!
 
-Live Link: https://seddboi.github.io/Weather-Dashboard/
+Live Link: https://seddboi.github.io/Thought-Machine/
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
